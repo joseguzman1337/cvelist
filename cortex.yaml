@@ -1,0 +1,15 @@
+---
+info:
+  title: Cvelist
+  description: Pilot program for CVE submission through GitHub
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/cvelist
+  x-cortex-tag: cvelist
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: infosec
+openapi: 3.0.1
+servers:
+- url: "/"
